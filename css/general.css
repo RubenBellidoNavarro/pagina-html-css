@@ -52,6 +52,36 @@ main {
   max-width: 800px;
   margin: auto;
 }
+
+.character {
+  max-width: 800px;
+  margin: auto;
+}
+
+.character img {
+  width: 100%;
+  height: auto;
+  max-width: 100;
+  display: block;
+}
+
+.row {
+  display:flex;
+}
+
+.column {
+  float:left;
+  padding:10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width:75%;
+}
+
 /*Pie de pagina*/
 footer {
   text-align: center;
