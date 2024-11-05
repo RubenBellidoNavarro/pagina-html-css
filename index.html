@@ -11,8 +11,10 @@
     <body>
         <!--Encabezado-->
         <div class="header">
-            <h2>El Señor de los Anillos</h2>
-            <p>Disfruta de la aventura.</p>
+            <div class="banner">
+                <h1>El Señor de los Anillos</h1>
+                <p>Embárcate en la aventura épica de la Tierra Media</p>
+            </div>
         </div>
         
         <!--Sticky menu-->
@@ -23,32 +25,41 @@
             <a href="html/productos.html">Productos</a>
         </div>
         
-        <!--Parte principal de la pagina-->
-        <main>
+        <!-- Parte principal de la página -->
+    <main>
+        <section class="intro">
             <h2>Bienvenido a la Tierra Media</h2>
-            <p>Explora los personajes, momentos y productos destacados de la saga de El Señor de los Anillos.</p>
-            <div class="sections">
-                <section>
-                    <h3>Personajes</h3>
-                    <p>Conoce a los héroes y villanos de la saga.</p>
-                    <a href="html/personajes.html">Ir a Personajes</a>
-                </section>
-                <section>
-                    <h3>Momentos</h3>
-                    <p>Observa las escenas mas epicas.</p>
-                    <a href="html/momentos.html">Ir a Momentos</a>
-                </section>
-                <section>
-                    <h3>Productos</h3>
-                    <p>Explora el merchandising disponible.</p>
-                    <a href="html/productos.html">Ir a Productos</a>
-                </section>
-            </div>
-        </main>
+            <p>Sumérgete en el increíble mundo de <em>El Señor de los Anillos</em>, una saga donde la amistad, el valor y la perseverancia forjan el destino de la Tierra Media. Explora nuestros personajes, revive los momentos épicos y descubre productos únicos inspirados en esta legendaria historia.</p>
+        </section>
 
-        <!--Pie de página-->
-        <footer>
-            <p>© 2024 - Christopher Carrillo y Ruben Bellido</p>
-        </footer>
-    </body>
+        <!-- Secciones con enlaces a las páginas internas -->
+        <div class="sections">
+            <section class="card">
+                <img src="../pagina-html-css/imagenes/personajes.jpg" alt="Personajes de la Tierra Media">
+                <h3>Personajes</h3>
+                <p>Conoce a los héroes y villanos que luchan por el destino de la Tierra Media. Descubre sus historias, alianzas y rivalidades en este épico universo.</p>
+                <a href="../pagina-html-css/html/personajes.html" class="button">Ver Personajes</a>
+            </section>
+
+            <section class="card">
+                <img src="../pagina-html-css/imagenes/momentos.gif" alt="Momentos épicos de la saga">
+                <h3>Momentos</h3>
+                <p>Revive las escenas más memorables y emocionantes. Desde la batalla del Abismo de Helm hasta la travesía del Anillo Único hacia el Monte del Destino.</p>
+                <a href="../pagina-html-css/html/momentos.html" class="button">Ver Momentos</a>
+            </section>
+
+            <section class="card">
+                <img src="../pagina-html-css/imagenes/productos.jpg" alt="Productos de El Señor de los Anillos">
+                <h3>Productos</h3>
+                <p>Explora nuestra colección de productos exclusivos inspirados en la saga. Desde réplicas de armas legendarias hasta mercancía oficial.</p>
+                <a href="../pagina-html-css/html/productos.html" class="button">Ver Productos</a>
+            </section>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2024 - Christopher Carrillo y Ruben Bellido. Todos los derechos reservados.</p>
+    </footer>
+</body>
 </html>

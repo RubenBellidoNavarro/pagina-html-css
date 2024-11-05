@@ -14,7 +14,7 @@ body {
 }
 
 /* Header */
-.header { 
+.header .banner{ 
   background-image: url(../imagenes/Tierra\ media.webp);
   background-size: cover;
   background-position: center;
@@ -60,13 +60,90 @@ body {
   color: #ffd700; 
 }
 
-/*Cuerpo de la pagina*/
+
+/* Introducción */
+.intro {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #f4f4f4;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+/* Estilo de las tarjetas */
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.card {
+  background-color: #333;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  color: #ffd700;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #333;
+  background-color: #ffd700;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e6c200;
+}
+
+/* Cuerpo de la pagina */
 main {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
 }
 
+main h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffd700;
+  margin-bottom: 1rem;
+}
+
+/* Personajes */
 .character {
   max-width: 800px;
   margin: auto;
@@ -96,9 +173,47 @@ main {
   width:75%;
 }
 
-.product img{
-  width: 50%;
-  height: 50%;
+
+/* Productos */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.product {
+  background-color: #333;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.product h3 {
+  color: #ffd700;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.product p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
 }
 
 /*Pie de pagina*/
