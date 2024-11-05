@@ -60,6 +60,12 @@ body {
   color: #ffd700; 
 }
 
+.navbar-icon {
+  width: 30px; 
+  height: 30px;
+  vertical-align: middle; 
+  margin-right: 8px; 
+}
 
 /* Introducción */
 .intro {
