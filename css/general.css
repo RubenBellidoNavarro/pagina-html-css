@@ -154,7 +154,7 @@ main h2 {
   background-color: #333;
   border-radius: 8px;
   width: 100%;
-  max-width: 300px;
+  max-width: 1000px;
   padding: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   text-align: center;
@@ -185,6 +185,7 @@ main h2 {
 
 .row {
   display:flex;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .column {
