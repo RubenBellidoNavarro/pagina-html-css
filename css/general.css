@@ -150,16 +150,37 @@ main h2 {
 }
 
 /* Personajes */
-.character {
-  max-width: 800px;
-  margin: auto;
+.character-card {
+  background-color: #333;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.character img {
+.character-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.character-card img {
   width: 100%;
-  height: auto;
-  max-width: 100;
-  display: block;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.character-card h2 {
+  color: #ffd700;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.character-card p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 .row {
@@ -172,13 +193,21 @@ main h2 {
 }
 
 .left {
-  width: 25%;
+  width: 15%;
 }
 
 .right {
-  width:75%;
+  width: 85%;
 }
 
+/* Momentos */
+
+.moment img {
+  width: 100%;
+  height: auto;
+  max-width: 100;
+  display: block;
+}
 
 /* Productos */
 .product-list {
